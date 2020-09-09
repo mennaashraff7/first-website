@@ -279,6 +279,8 @@ margin-top: 70px;}
     border: 1px solid #f2cbbd;
     box-shadow: 10px 10px  #f2cbbd;
     border-bottom-left-radius: 1.5em;
+    width:400px;
+     height:400px;
 }
 .map-caption{
     padding: 20% 0;
@@ -642,15 +644,35 @@ section .services p{color: gray;}
     left: 40%; 
    
     }
+}
     @media screen and (max-width:411px){
+        .container{200px}
+        #images #right-item{
+    padding: 5% 20%;
+}
      .form-2{
         position: relative;
     }
     .form-2 .btn{
     position: absolute;
-    left: 40%;
+    left: 60%;
         top: 0;
    
     }
-    }
+         .form-2 input{
+    width: 150px;
+    height: 38px;
+    margin: 0;
+        
 }
+        .map iframe{
+    
+            width:250px;
+            height:250px;
+}
+            .form i{
+    position: absolute;
+    left: 10%; 
+    
+}
+    }
