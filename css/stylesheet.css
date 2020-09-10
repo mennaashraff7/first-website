@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif serif;
-
+    width: 100%;
+    height: auto;
    
     
 }
@@ -583,18 +584,6 @@ section .services p{color: gray;}
 #images #right-item .box3{
       margin: 5% 5%;
 }
-        .form i{
-    position: absolute;
-    left: 13%; 
-    
-}
-.form .btn{
-    position: absolute;
-    background-image: linear-gradient(to bottom,#d68de4,#d68de4,#f3ccbc);
-    color: white;
-    right:6%;
-    
-}
     .form input{
     width: 300px;
     height: 40px;
@@ -627,25 +616,18 @@ section .services p{color: gray;}
 }
     .form-2 .btn{
         position: absolute;
-    left: 50%; 
-   
+        left: 150px;
     }
     .footer{
         background-color: darkgrey;
     }
+    .top-line {
+    padding: 20px 110px;
+}
     
 }
-@media screen and (max-width:575px){
-    .form-2{
-        position: relative;
-    }
-    .form-2 .btn{
-    position: absolute;
-    left: 40%; 
-   
-    }
-}
     @media screen and (max-width:411px){
+
         .container{200px}
         #images #right-item{
     padding: 5% 20%;
@@ -655,8 +637,8 @@ section .services p{color: gray;}
     }
     .form-2 .btn{
     position: absolute;
-    left: 60%;
-        top: 0;
+    left:60%;
+    top: 0;
    
     }
          .form-2 input{
