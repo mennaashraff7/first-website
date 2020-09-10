@@ -4,6 +4,7 @@ body{
     font-family: sans-serif serif;
     width: 100%;
     height: auto;
+    overflow-x: hidden;
    
     
 }
@@ -429,6 +430,7 @@ margin-top: 70px;}
     .container{
     width: 100%;
     height: auto;
+ overflow-x: hidden;
 }
     nav{
         background-image:linear-gradient(to bottom,#d68de4,#de9fd8,#f3ccbc,#f3ccbc);   
@@ -514,7 +516,7 @@ section .services p{color: gray;}
 }
     .form i{
     position: absolute;
-    left: 125px; 
+    left: 0px; 
     
 }
 .form .btn{
@@ -527,6 +529,9 @@ section .services p{color: gray;}
 }
 /* media quires */
 @media screen and (max-width:767px){
+    .container{100%
+        overflow-x: hidden;
+    }
     .header-pic #left-col{
    
 }
@@ -599,6 +604,16 @@ section .services p{color: gray;}
     padding-right: 0;
     color: antiquewhite;
 }
+   .form{
+    position: relative;
+    padding-left: 0px;
+    margin: 0;
+}
+.form i{
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+}
     .form-2 input{
     width: 200px;
     height: 39px;
@@ -625,11 +640,17 @@ section .services p{color: gray;}
     .top-line {
     padding: 20px 110px;
 }
+      .map iframe{
+    
+            width:250px;
+            height:250px;
+}
     
 }
     @media screen and (max-width:411px){
 
-        .container{200px}
+        .container{100%
+         overflow-x: hidden;}
         #images #right-item{
     padding: 5% 20%;
 }
