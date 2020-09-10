@@ -668,7 +668,7 @@ section .services p{color: gray;}
     
 }
     
-}
+
     @media screen and (max-width:411px){
          body{
     margin: 0;
@@ -702,7 +702,12 @@ section .services p{color: gray;}
 }
             .form i{
     position: absolute;
-    left: 40px; 
+    left: 45px; 
+    
+}
+          .form .btn{
+    position: absolute;
+    right: 0px; 
     
 }
     }
