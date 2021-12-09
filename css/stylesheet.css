@@ -26,6 +26,7 @@ header nav a h5{
     padding: 35px 110px;
 }
 #logo h5{
+    Z-index:1;
    background: linear-gradient(to bottom,#d68de4,#d68de4,#f3ccbc,#f3ccbc);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
